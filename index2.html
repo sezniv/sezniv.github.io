@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolios</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PORTAFOLIOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Encabezado -->
+  <header class="bg-secondary text-white text-center py-5">
+    <h1>Bienvenido a mi Portafolio</h1>
+    <p>Descubre un poco más sobre mi</p>
+  </header>
+
+  <!-- Sección de presentación -->
+  <section id="presentacion" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Sobre mi</h2>
+          <p>Hola Soy Sebastián Gacitúa estudiante de fullstack en javascript en Desafio Latam, tengo 32 años y actualmente trabajo en el área de informatica, durante años 
+            me desempeñe en el área de soporte, queriendo dar el salto me he propuesto aprender programación para una mejor calidad de vida
+          </p>
+          <p>
+            Me encantan las aventuras, sobre todo viajar y poder conocer nuevos países y culturas, parte de estudiar programación es para poder tener un empleo y poder trabajar en cualquier parte del mundo
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/img/perfil2.jpg" alt="Tu imagen" class="imagen">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Sección de 4 cards -->
+<section id="section-cards" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Algunos de mis proyectos</h2>
+      <div class="row">
+  
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="assets/img/proyecto1.png"card-img-top" alt="Imagen 1">
+            <div class="card-body">
+              <h5 class="card-title">Mi primera Pagina HTML</h5>
+              <p class="card-text">Creamos nuestro primer CV utilizando solamente HTML</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="assets/img/proyecto2.png" class="card-img-top" alt="Imagen 2">
+            <div class="card-body">
+              <h5 class="card-title">Modulo CSS</h5>
+              <p class="card-text">Desarrollamos una pagina utilizando solo elementos CSS, quedando a criterio propio la imaginación para crear la web</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="assets/img/proyecto3.png" class="card-img-top" alt="Imagen 3">
+            <div class="card-body">
+              <h5 class="card-title">Iguana Page flex</h5>
+              <p class="card-text">Creamos una pagina utilizando elementos flexibles</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="assets/img/proyecto4.png" class="card-img-top" alt="Imagen 4">
+            <div class="card-body">
+              <h5 class="card-title">Pagina de Comidas</h5>
+              <p class="card-text">Desarrollamos una web solo utilizando componentes de bootstrap, utilizamos navbars, cards, forms, contenedores</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Educación -->
+<section id="educacion" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Educación</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Adminstración de redes computacionales</h5>
+              <p class="card-text">DUOC UC</p>
+              <p class="card-text">Año de graduación: 2013</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollo Full Stack Python</h5>
+              <p class="card-text">Talento Digital</p>
+              <p class="card-text">Año de graduación: 2021</p>
+            </div>
+          </div>
+        </div>
+        <!-- Agrega más tarjetas para educación adicional si es necesario -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contacto</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" class="form-control" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" class="form-control" rows="5" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>2024 Sebastián Gacitúa Molina</p>
+  </footer>
+
+  <!-- Bootstrap JS y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

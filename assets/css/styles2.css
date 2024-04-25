@@ -1,0 +1,49 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+    color: #fff;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .img-fluid {
+    max-width: 10px;
+    height: auto;
+  }
+
+
+  .fondo-negro{
+    background-color: black;
+  }
+
+  .imagen{
+    width: 50px;
+    height: 10px;
+  }
+  
+  #presentacion{
+    background-color: black;
+  }
+
+  .container{
+    background-color: black;
+  }
