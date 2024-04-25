@@ -1,4 +1,4 @@
-deploy: sezniv.github.io
+deploy: https://sezniv.github.io/
 
 fortk 1: https://github.com/sezniv/dl_portfolio
 
